@@ -12,7 +12,7 @@ var connector = new builder.ChatConnector({
     appId: '27418aa4-1c80-4cdd-8487-0f7deb656d20',
     appPassword: 'hxoaMpAR4T6O1XHokvft9hu'
 });
-
+ 
 // Listen for messages from users 
 server.post('/api/messages', connector.listen());
 
